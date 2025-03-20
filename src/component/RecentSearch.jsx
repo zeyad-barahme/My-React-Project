@@ -1,5 +1,5 @@
 import React from 'react';
-import './style/RecentSearch.css';
+import './style/recentSearch.css';
 
 const RecentSearch = () => {
   return (
