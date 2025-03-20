@@ -1,10 +1,10 @@
 import React from 'react';
 import { Card, Row, Col } from 'react-bootstrap';
 import './Style/RecommendedHolidays.css';
-import BaliImg from "../assets/bali.jpg";
-import SwissImg from "../assets/swiss.jpg";
-import BoracayImg from "../assets/boracay.jpg";
-import PalawanImg from "../assets/palawan.jpg";
+import BaliImg from "../assets/Bali.jpg";
+import SwissImg from "../assets/Swiss.jpg";
+import BoracayImg from "../assets/Boracay.jpg";
+import PalawanImg from "../assets/Palawan.jpg";
 const holidaysData = [
   { img: BaliImg, title: "Bali", duration: "4D3N", price: "$899" },
   { img: SwissImg, title: "Swiss", duration: "6D5N", price: "$900" },
