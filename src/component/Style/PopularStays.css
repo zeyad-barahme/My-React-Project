@@ -1,0 +1,95 @@
+.popular-stays {
+    padding: 50px 80px !important;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px !important;
+}
+
+.section-title {
+    font-size: 28px;
+    color: #000000;
+    margin: 0;
+    margin-right: 10px;
+}
+
+.view-all {
+    font-size: 16px;
+    color: #3818ef;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.card-img-top {
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.card-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stay-type-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stay-type {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 0;
+}
+
+.video-icon {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #007bff;
+    font-size: 18px;
+    color: #007bff;
+}
+
+.stay-title {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.stay-price {
+    font-size: 16px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.rating {
+    font-size: 14px;
+    color: #777;
+}
+
+.reviews {
+    font-size: 14px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+.stay-card {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.card-body {
+    padding: 15px !important;
+}

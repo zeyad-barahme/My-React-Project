@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.image-container {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block; 
+  margin-bottom: 0; 
+}
+
+.content {
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+  color: #111827;
+}
+
+.content h4 {
+  color: #2563eb;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+.content h2 {
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+.subscribe-box {
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  max-width: 450px;
+  margin: auto;
+ 
+}
+
+.subscribe-box .box-title {
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.subscribe-box input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  display: block;
+}
+
+.subscribe-box .submit-btn {
+  background-color: #ffa726;
+  color: #fff;
+  border: none;
+  padding: 15px 40px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  float: left;
+}
+
+.subscribe-box .submit-btn:hover {
+  background-color: #fb8c00;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}

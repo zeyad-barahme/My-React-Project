@@ -1,0 +1,59 @@
+.recommended-holidays {
+    padding: 0 80px;
+   
+  }
+  
+  .header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    
+  }
+  
+  .section-title {
+    font-size: 28px;
+    color: #000000;
+    margin-bottom: 30px;
+  }
+  
+  .view-all {
+    font-size: 16px;
+    color: #3818ef;
+    cursor: pointer;
+    margin-top: 10px; 
+  }
+  
+  .card-img-top {
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .text-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 0;
+  }
+  
+  .card-text {
+    color: #777;
+    margin-bottom: 0;
+  }
+  
+  .price {
+    font-size: 18px;
+    color: #007bff;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+  

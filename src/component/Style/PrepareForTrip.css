@@ -1,0 +1,64 @@
+.prepare-container {
+  
+    padding: 80px;
+  }
+  
+  .prepare-title {
+    margin-top: 0;
+    color: #b0b0b0;
+    font-size: 16px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+  }
+  
+  .icons-container {
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+  }
+  
+  .icon-item {
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .icon-item span {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #6e6e6e;
+  }
+  
+  .icon-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Colors like the image */
+  .pink {
+    background-color: #f36d85;
+  }
+  .orange {
+    background-color: #ffa255;
+  }
+  .green {
+    background-color: #3ec28f;
+  }
+  .yellow {
+    background-color: #ffc107;
+  }
+  .blue {
+    background-color: #61a9eb;
+  }
+  .lightgreen {
+    background-color: #7ed957;
+  }
+  
